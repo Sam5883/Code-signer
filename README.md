@@ -3,7 +3,8 @@ Codesign or recodesign applications, other bundle types, and regular files like 
 
 ### Features:
 - Initial check for valid developer path (Xcode or Command Line Tools)
-- Option to codesign in simple mode or deep mode (default: simple)● Option to select from code-signing certificates found in the user's keychains (only valid certificates)
+- Option to codesign in simple mode or deep mode (default: simple)
+- Option to select from code-signing certificates found in the user's keychains (only valid certificates)
 - Automatic ad-hoc signature, if the user has no regular & valid code-signing certificate in his keychains
 - Dequarantine operation before code-signing
 - Automatic detritus removal on code-signing error
